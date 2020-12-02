@@ -1,0 +1,27 @@
+h2 p {
+    width: 60%;
+    text-align: left;
+}
+
+.en-tete {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.Bloc_left {
+    text-align: left;
+    flex-direction: column;
+    width: 30%;
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+.Bloc_right {
+    text-align: right;
+    flex-direction: column;
+    width: 70%;
+}
