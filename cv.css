@@ -5,23 +5,34 @@ h2 p {
 
 .en-tete {
     text-align: center;
+    color: chocolate;
+    border: solid;
+    width: 500px;
 }
 
 .container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 150px;
 }
 
 .Bloc_left {
     text-align: left;
     flex-direction: column;
-    width: 30%;
-    background-color: lightgrey;
+    width: 50%;
+    background-color: rgb(87, 77, 67);
     padding: 20px;
+    color: rgb(255, 255, 255);
+    border: solid;
 }
 
 .Bloc_right {
     text-align: right;
     flex-direction: column;
     width: 70%;
+    background-color: rgb(230, 196, 152);
+    padding: 20px;
+    color: black;
+    border: solid;
 }
