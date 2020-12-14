@@ -3,11 +3,10 @@ h2 p {
     text-align: left;
 }
 
-.en-tete {
-    text-align: center;
+.test {
     color: chocolate;
-    border: solid;
-    width: 500px;
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 100%;
 }
 
 .container {
@@ -15,6 +14,7 @@ h2 p {
     flex-direction: row;
     justify-content: space-between;
     padding: 150px;
+    background-color: rgba(0, 0, 0, 0.445);
 }
 
 .Bloc_left {
@@ -35,4 +35,12 @@ h2 p {
     padding: 20px;
     color: black;
     border: solid;
+}
+
+.en-tete {
+    border: solid;
+    color: chocolate;
+    width: 250px;
+    text-align: center;
+    margin-left: 37%;
 }
