@@ -1,0 +1,244 @@
+body {
+    background: #ededed;
+}
+
+header {
+    background: url("https://img.freepik.com/photos-gratuite/abstrait-matrice-numerique-concept-technologie-information-big-data-futuriste_34629-569.jpg");
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 2px solid #fff;
+    box-shadow: 0px 0px 15px #333;
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+}
+
+
+/*SECTIONS*/
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+}
+
+section h2 {
+    margin: 20px 0;
+    width: 90%;
+}
+
+section>div {
+    width: 90%;
+}
+
+
+/*SECTION INFOS*/
+
+.intro {
+    border-bottom: 2px dashed #ccc;
+}
+
+.btn_dwnl a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn_dwnl {
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #eeeeee;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #25a9f5;
+    padding: 15px 50px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.btn_dwnl span {
+    position: relative;
+    z-index: 1;
+}
+
+.btn_dwnl:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 470%;
+    width: 140%;
+    background: #0d50b6;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-100%) translateY(-25%) rotate(45deg);
+    transform: translateX(-100%) translateY(-25%) rotate(45deg);
+}
+
+.btn_dwnl:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.contact-flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.contact-flex p:first-child {
+    flex: 0 0 40%;
+}
+
+.contact-flex p:last-child {
+    flex: 0 0 60%;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 0px auto;
+}
+
+.social img {
+    width: 40px;
+    height: 40px;
+}
+
+
+/*SECTION EXP ET FORMATION*/
+
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.form-info {
+    display: flex;
+    flex-flow: column wrap;
+    display: block;
+}
+
+.form-logo {
+    flex: 0 0 25%;
+    max-width: 100px;
+}
+
+.form-info {
+    flex: 0 0 70%;
+    margin-left: auto;
+    display: block;
+}
+
+.form img {
+    width: 100%;
+}
+
+.form h3 {
+    font-size: 1.2em;
+    margin-bottom: 1px;
+}
+
+.form h4 {
+    font-size: 1em;
+    font-weight: normal;
+    margin-top: 1px;
+}
+
+.skills {
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.skills-info {
+    display: flex;
+    flex-flow: column wrap;
+    display: block;
+}
+
+.skills-logo {
+    flex: 0 0 25%;
+    max-width: 100px;
+}
+
+.skills-info {
+    flex: 0 0 70%;
+    margin-left: auto;
+    display: block;
+}
+
+.skills img {
+    width: 100%;
+}
+
+.skills h3 {
+    font-size: 1.2em;
+    margin-bottom: 1px;
+}
+
+.skills h4 {
+    font-size: 1em;
+    font-weight: normal;
+    margin-top: 1px;
+}
+
+
+/*VERSION BUREAU DU CV*/
+
+@media screen and (min-width: 980px) {
+    section {
+        width: 80%;
+        box-shadow: 0px 0px 10px #bbb;
+    }
+    .intro,
+    .contact {
+        flex: 0 0 45%;
+    }
+    .intro {
+        border-bottom: none;
+        border-right: 2px solid #ccc;
+        padding-right: 20px;
+        margin-left: auto;
+    }
+    .contact {
+        padding-left: 20px;
+        margin-right: auto;
+    }
+    .form-logo {
+        flex: 0 0 10%;
+    }
+    .form-info,
+    .form-desc {
+        flex: 0 0 85%;
+        margin-left: auto;
+        display: block;
+    }
+    .skills-logo {
+        flex: 0 0 10%;
+    }
+    .skills-info,
+    .skills-desc {
+        flex: 0 0 85%;
+        margin-left: auto;
+        display: block;
+    }
+}
