@@ -161,6 +161,11 @@ section>div {
     margin-top: 1px;
 }
 
+.form a {
+    text-decoration: none;
+    color: black;
+}
+
 .xp {
     display: flex;
     flex-flow: row wrap;
@@ -199,6 +204,11 @@ section>div {
     font-size: 1em;
     font-weight: normal;
     margin-top: 1px;
+}
+
+.xp a {
+    text-decoration: none;
+    color: black;
 }
 
 /*SECTION COMPETENCES*/
