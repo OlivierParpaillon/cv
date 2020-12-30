@@ -161,7 +161,7 @@ section>div {
     margin-top: 1px;
 }
 
-.skills {
+.xp {
     display: flex;
     flex-flow: row wrap;
     border-bottom: 1px solid #bbb;
@@ -169,33 +169,33 @@ section>div {
     margin-bottom: 10px;
 }
 
-.skills-info {
+.xp-info {
     display: flex;
     flex-flow: column wrap;
     display: block;
 }
 
-.skills-logo {
+.xp-logo {
     flex: 0 0 25%;
     max-width: 100px;
 }
 
-.skills-info {
+.xp-info {
     flex: 0 0 70%;
     margin-left: auto;
     display: block;
 }
 
-.skills img {
+.xp img {
     width: 100%;
 }
 
-.skills h3 {
+.xp h3 {
     font-size: 1.2em;
     margin-bottom: 1px;
 }
 
-.skills h4 {
+.xp h4 {
     font-size: 1em;
     font-weight: normal;
     margin-top: 1px;
@@ -232,11 +232,11 @@ section>div {
         margin-left: auto;
         display: block;
     }
-    .skills-logo {
+    .xp-logo {
         flex: 0 0 10%;
     }
-    .skills-info,
-    .skills-desc {
+    .xp-info,
+    .xp-desc {
         flex: 0 0 85%;
         margin-left: auto;
         display: block;
