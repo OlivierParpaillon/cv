@@ -1,5 +1,8 @@
+/*général*/
+
 body {
     background: #ededed;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -14,7 +17,6 @@ h1 {
     color: antiquewhite;
     text-align: center;
 }
-
 
 /*SECTIONS*/
 
@@ -249,6 +251,11 @@ section>div {
 
 .c90 {
     width: 90%;
+    background-color: rgb(0, 69, 219);
+}
+
+.c95 {
+    width: 95%;
     background-color: rgb(0, 69, 219);
 }
 
