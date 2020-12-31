@@ -273,6 +273,23 @@ section>div {
     background-color: grey;
 }
 
+/*SECTION INTERETS*/
+
+.interet {
+    flex: 0 1 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.interet img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px #555;
+}
+
 /*VERSION BUREAU DU CV*/
 
 @media screen and (min-width: 980px) {
@@ -311,5 +328,8 @@ section>div {
         flex: 0 0 85%;
         margin-left: auto;
         display: block;
+    }
+    .interet {
+        flex: 0 1 25%;
     }
 }
