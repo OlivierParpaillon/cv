@@ -18,6 +18,7 @@ h1 {
     text-align: center;
 }
 
+
 /*SECTIONS*/
 
 section {
@@ -27,7 +28,7 @@ section {
     width: 100%;
     padding-bottom: 20px;
     margin: 20px auto;
-    box-shadow: 0px 0px 10px #bbb;
+    box-shadow: 0px 0px 15px #bbb;
     background-color: #fff;
 }
 
@@ -44,7 +45,7 @@ section>div {
 /*SECTION INFOS*/
 
 .intro {
-    border-bottom: 2px dashed #ccc;
+    border-bottom: 2px solid rgb(0, 162, 255);
 }
 
 .btn_dwnl a {
@@ -213,8 +214,8 @@ section>div {
     color: black;
 }
 
-/*SECTION COMPETENCES*/
 
+/*SECTION COMPETENCES*/
 
 .h3gauche {
     width: 90%;
@@ -244,8 +245,18 @@ section>div {
     border-bottom-left-radius: 5px;
 }
 
+.c75 {
+    width: 75%;
+    background-color: rgb(95, 191, 255);
+}
+
 .c80 {
     width: 80%;
+    background-color: rgb(0, 162, 255);
+}
+
+.c85 {
+    width: 85%;
     background-color: rgb(0, 162, 255);
 }
 
@@ -273,6 +284,7 @@ section>div {
     background-color: grey;
 }
 
+
 /*SECTION INTERETS*/
 
 .interet {
@@ -290,6 +302,7 @@ section>div {
     box-shadow: 0px 0px 15px #555;
 }
 
+
 /*VERSION BUREAU DU CV*/
 
 @media screen and (min-width: 980px) {
@@ -303,7 +316,7 @@ section>div {
     }
     .intro {
         border-bottom: none;
-        border-right: 2px solid #ccc;
+        border-right: 2px solid rgb(112, 173, 253);
         padding-right: 20px;
         margin-left: auto;
     }
